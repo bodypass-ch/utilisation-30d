@@ -137,7 +137,16 @@
       font-size: 32px;
       line-height: 1.2;
       color: var(--bp-text);
-      margin: 0 0 18px 0;
+      margin: 0 0 12px 0;
+    }
+    .featured .meta {
+      font-size: 14px;
+      color: var(--bp-text-soft);
+      margin-bottom: 18px;
+    }
+    .featured .meta .sep {
+      color: var(--bp-divider);
+      margin: 0 8px;
     }
     .featured .blurb {
       font-size: 16px;
@@ -205,7 +214,16 @@
       font-size: 22px;
       line-height: 1.25;
       color: var(--bp-text);
-      margin: 0 0 18px 0;
+      margin: 0 0 8px 0;
+    }
+    .card .meta {
+      font-size: 14px;
+      color: var(--bp-text-soft);
+      margin-bottom: 16px;
+    }
+    .card .meta .sep {
+      color: var(--bp-divider);
+      margin: 0 8px;
     }
     .card .blurb {
       font-size: 15px;
@@ -321,6 +339,7 @@
       <div class="body">
         <div class="category"></div>
         <h3></h3>
+        <div class="meta"></div>
         <p class="blurb"></p>
         <a class="cta" href="#" target="_blank" rel="noopener">En savoir plus</a>
       </div>
@@ -345,6 +364,13 @@
 
     function metaLine(s) {
       return [s.category, s.canton].filter(Boolean).join(" · ");
+    }
+
+    function statsLine(s) {
+      const parts = [];
+      if (s.visites != null && s.visites !== "") parts.push(`${s.visites} visites`);
+      if (s.note != null && s.note !== "") parts.push(`Note ${s.note}`);
+      return parts.join(' <span class="sep">·</span> ');
     }
 
     function todayFr() {
@@ -388,11 +414,13 @@
         featured.className = "featured";
         const photoUrl = last.photo_url || last.etab_photo_url;
         const lastUrl = last.etab_url_public || (last.etab_slug ? `https://www.bodypass.ch/etablissements/${last.etab_slug}/` : null);
+        const lastStats = statsLine(last);
         featured.innerHTML = `
           <div class="media" style="${mediaStyle(photoUrl)}"></div>
           <div class="body">
             <div class="category">${metaLine(last) || " "}</div>
             <h2>${last.etab_name}</h2>
+            ${lastStats ? `<div class="meta">${lastStats}</div>` : ""}
             ${last.blurb ? `<p class="blurb">${last.blurb}</p>` : ""}
             ${lastUrl ? `<a href="${lastUrl}" class="cta" target="_blank" rel="noopener">Y retourner</a>` : ""}
           </div>`;
@@ -413,6 +441,13 @@
         node.querySelector(".media").setAttribute("style", mediaStyle(s.etab_photo_url || s.photo_url));
         node.querySelector(".category").textContent = metaLine(s) || " ";
         node.querySelector("h3").textContent = s.etab_name || "";
+        const metaEl = node.querySelector(".meta");
+        const stats = statsLine(s);
+        if (stats) {
+          metaEl.innerHTML = stats;
+        } else {
+          metaEl.remove();
+        }
         const blurbEl = node.querySelector(".blurb");
         if (s.blurb) {
           blurbEl.textContent = s.blurb;
@@ -420,8 +455,9 @@
           blurbEl.remove();
         }
         const cta = node.querySelector(".cta");
-        if (s.etab_url_public) {
-          cta.href = s.etab_url_public;
+        const sugUrl = s.etab_url_public || (s.etab_slug ? `https://www.bodypass.ch/etablissements/${s.etab_slug}/` : null);
+        if (sugUrl) {
+          cta.href = sugUrl;
         } else {
           cta.style.display = "none";
         }
