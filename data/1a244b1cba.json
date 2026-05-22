@@ -10,7 +10,8 @@
     "etab_url_public": "https://www.bodypass.ch/etablissements/les-tresoms-2/",
     "category": "Spa 5 étoiles",
     "visites": 88,
-    "note": "5/5"
+    "note": "5/5",
+    "blurb": "L'art-déco au bord du lac. Architecture des années 30, spa contemporain, vue lac d'Annecy — l'élégance intemporelle."
   },
   "top_category": "Soins du Corps",
   "top_canton": "Genève",
@@ -24,7 +25,8 @@
       "canton": "Genève",
       "reason": "Parce que vous aimez Soins du Corps",
       "visites": 144,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'expertise du toucher à Genève. Massages signature, soins corps profond, lâcher-prise garanti — la pause qu'on méritait."
     },
     {
       "etab_name": "EUPHORIA & BEAUTY STUDIO",
@@ -35,7 +37,8 @@
       "canton": "Genève",
       "reason": "À découvrir dans le canton de Genève",
       "visites": 144,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "Le studio coiffure-beauté genevois. Coupes contemporaines, soins capillaires, conseils sur-mesure — l'éclat retrouvé."
     },
     {
       "etab_name": "HÔTEL BORSARI",
@@ -44,7 +47,8 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
       "category": "Hôtels",
       "canton": "Valais",
-      "reason": "Nouveau partenaire du réseau"
+      "reason": "Nouveau partenaire du réseau",
+      "blurb": "L'hôtel intime au cœur du Valais. Confort feutré, accueil personnalisé, escapade hors du temps — pour souffler vraiment."
     }
   ]
 }

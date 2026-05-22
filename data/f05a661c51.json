@@ -11,7 +11,8 @@
     "category": "Spa",
     "canton": "Vaud",
     "visites": 617,
-    "note": "4.5/5"
+    "note": "4.5/5",
+    "blurb": "L'institut suisse dédié à l'esthétique médicale. Technologies avancées, expertise reconnue, résultats visibles — la beauté en mode pro."
   },
   "top_category": "Lausanne région",
   "top_canton": "Vaud",
@@ -25,7 +26,8 @@
       "canton": "Vaud",
       "reason": "Parce que vous aimez Lausanne région",
       "visites": 706,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "Le salon barbier vaudois qui prend son temps. Coupe sur-mesure, rasage traditionnel, rituel chaud-froid — un moment rien que pour soi."
     },
     {
       "etab_name": "Chalet Royalp Hôtel & Spa",
@@ -36,7 +38,8 @@
       "canton": "Vaud",
       "reason": "À découvrir dans le canton de Vaud",
       "visites": 909,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "Le refuge alpin de Villars-sur-Ollon. Spa montagnard, piscine extérieure chauffée vue cimes et soins signature après-ski toute l'année."
     },
     {
       "etab_name": "HÔTEL BORSARI",
@@ -45,7 +48,8 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
       "category": "Hôtels",
       "canton": "Valais",
-      "reason": "Nouveau partenaire du réseau"
+      "reason": "Nouveau partenaire du réseau",
+      "blurb": "L'hôtel intime au cœur du Valais. Confort feutré, accueil personnalisé, escapade hors du temps — pour souffler vraiment."
     }
   ]
 }

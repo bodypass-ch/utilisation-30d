@@ -11,7 +11,8 @@
     "category": "Coiffeur",
     "canton": "Fribourg",
     "visites": 31,
-    "note": "5/5"
+    "note": "5/5",
+    "blurb": "Le salon fribourgeois à l'élégance discrète. Maîtrise du geste, conseil avisé, atmosphère cosy — la coiffure comme un art."
   },
   "top_category": "Coiffeur",
   "top_canton": "Fribourg",
@@ -25,7 +26,8 @@
       "canton": "Fribourg",
       "reason": "Parce que vous aimez Coiffeur",
       "visites": 73,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "Le coiffeur fribourgeois à l'œil sûr. Conseil personnalisé, soin profond, coupe précise — chaque visite, un nouveau départ."
     },
     {
       "etab_name": "EssenCiel Institut",
@@ -36,7 +38,8 @@
       "canton": "Fribourg",
       "reason": "À découvrir dans le canton de Fribourg",
       "visites": 60,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'institut fribourgeois aux gestes précis. Épilation, soins visage, manucure — la beauté au quotidien, rituel après rituel."
     },
     {
       "etab_name": "HÔTEL BORSARI",
@@ -45,7 +48,8 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
       "category": "Hôtels",
       "canton": "Valais",
-      "reason": "Nouveau partenaire du réseau"
+      "reason": "Nouveau partenaire du réseau",
+      "blurb": "L'hôtel intime au cœur du Valais. Confort feutré, accueil personnalisé, escapade hors du temps — pour souffler vraiment."
     }
   ]
 }

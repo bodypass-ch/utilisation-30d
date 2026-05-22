@@ -10,7 +10,8 @@
     "etab_url_public": "https://www.bodypass.ch/etablissements/versonnex/",
     "category": "Soins Hommes",
     "canton": "Genève",
-    "visites": 26
+    "visites": 26,
+    "blurb": "Le salon de barbier des hommes exigeants. Coupe précise, rasage traditionnel, ambiance new-yorkaise — l'expérience masculine au sommet."
   },
   "top_category": "Soins Hommes",
   "top_canton": "Genève",
@@ -24,7 +25,8 @@
       "canton": "Genève",
       "reason": "Parce que vous aimez Soins Hommes",
       "visites": 144,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'expertise du toucher à Genève. Massages signature, soins corps profond, lâcher-prise garanti — la pause qu'on méritait."
     },
     {
       "etab_name": "Corps Sains",
@@ -35,7 +37,8 @@
       "canton": "Genève",
       "reason": "À découvrir dans le canton de Genève",
       "visites": 140,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'institut genevois dédié aux futures mamans. Massages prénatals, soins ciblés, écoute attentive — la grossesse en douceur."
     },
     {
       "etab_name": "HÔTEL BORSARI",
@@ -44,7 +47,8 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
       "category": "Hôtels",
       "canton": "Valais",
-      "reason": "Nouveau partenaire du réseau"
+      "reason": "Nouveau partenaire du réseau",
+      "blurb": "L'hôtel intime au cœur du Valais. Confort feutré, accueil personnalisé, escapade hors du temps — pour souffler vraiment."
     }
   ]
 }

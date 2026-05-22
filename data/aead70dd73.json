@@ -11,7 +11,8 @@
     "category": "Soins du Visage",
     "canton": "Vaud",
     "visites": 546,
-    "note": "4.5/5"
+    "note": "4.5/5",
+    "blurb": "Le concept ongles + beauté vaudois. Manucure, pédicure, soins du visage — un café, une pause, repartir rayonnante."
   },
   "top_category": "Future Maman",
   "top_canton": "Vaud",
@@ -25,7 +26,8 @@
       "canton": "Vaud",
       "reason": "Parce que vous aimez Future Maman",
       "visites": 78,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'institut dermo-esthétique vaudois. Soins ciblés, expertise médicale, écoute personnalisée — la peau en pleine santé."
     },
     {
       "etab_name": "1er Acte Coiffure",
@@ -36,7 +38,8 @@
       "canton": "Vaud",
       "reason": "À découvrir dans le canton de Vaud",
       "visites": 706,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "Le salon barbier vaudois qui prend son temps. Coupe sur-mesure, rasage traditionnel, rituel chaud-froid — un moment rien que pour soi."
     },
     {
       "etab_name": "HÔTEL BORSARI",
@@ -45,7 +48,8 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
       "category": "Hôtels",
       "canton": "Valais",
-      "reason": "Nouveau partenaire du réseau"
+      "reason": "Nouveau partenaire du réseau",
+      "blurb": "L'hôtel intime au cœur du Valais. Confort feutré, accueil personnalisé, escapade hors du temps — pour souffler vraiment."
     }
   ]
 }

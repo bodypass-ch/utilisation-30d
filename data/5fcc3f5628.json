@@ -11,7 +11,8 @@
     "category": "Spa",
     "canton": "Valais",
     "visites": 70,
-    "note": "4.5/5"
+    "note": "4.5/5",
+    "blurb": "Le spa public revisité en lieu de bien-être. Bassins, hammam, sauna — la culture du bain dans sa version contemporaine."
   },
   "top_category": "Soins Hommes",
   "top_canton": "Valais",
@@ -25,7 +26,8 @@
       "canton": "Valais",
       "reason": "Parce que vous aimez Soins Hommes",
       "visites": 171,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "Le boutique hôtel d'altitude dans le val d'Anniviers. Vue cimes, atmosphère chaleureuse, soins ciblés — la montagne autrement."
     },
     {
       "etab_name": "Chanelle and Co.",
@@ -36,7 +38,8 @@
       "canton": "Valais",
       "reason": "À découvrir dans le canton de Valais",
       "visites": 15,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'institut d'épilation valaisan qui mise sur la précision. Cire tiède, laser, soins après — la peau lisse sans compromis."
     },
     {
       "etab_name": "HÔTEL BORSARI",
@@ -45,7 +48,8 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
       "category": "Hôtels",
       "canton": "Valais",
-      "reason": "Nouveau partenaire du réseau"
+      "reason": "Nouveau partenaire du réseau",
+      "blurb": "L'hôtel intime au cœur du Valais. Confort feutré, accueil personnalisé, escapade hors du temps — pour souffler vraiment."
     }
   ]
 }

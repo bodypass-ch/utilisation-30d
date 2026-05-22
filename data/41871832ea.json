@@ -11,7 +11,8 @@
     "category": "Spa 5 étoiles",
     "canton": "Genève",
     "visites": 394,
-    "note": "4.5/5"
+    "note": "4.5/5",
+    "blurb": "Le sanctuaire urbain au cœur de Genève. Cinq Mondes, rituels d'ailleurs, piscine 30e étage — une parenthèse hors du monde."
   },
   "top_category": "Soins du Visage",
   "top_canton": "Genève",
@@ -25,7 +26,8 @@
       "canton": "Genève",
       "reason": "Parce que vous aimez Soins du Visage",
       "visites": 144,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'expertise du toucher à Genève. Massages signature, soins corps profond, lâcher-prise garanti — la pause qu'on méritait."
     },
     {
       "etab_name": "Corps Sains",
@@ -36,7 +38,8 @@
       "canton": "Genève",
       "reason": "À découvrir dans le canton de Genève",
       "visites": 140,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'institut genevois dédié aux futures mamans. Massages prénatals, soins ciblés, écoute attentive — la grossesse en douceur."
     },
     {
       "etab_name": "HÔTEL BORSARI",
@@ -45,7 +48,8 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
       "category": "Hôtels",
       "canton": "Valais",
-      "reason": "Nouveau partenaire du réseau"
+      "reason": "Nouveau partenaire du réseau",
+      "blurb": "L'hôtel intime au cœur du Valais. Confort feutré, accueil personnalisé, escapade hors du temps — pour souffler vraiment."
     }
   ]
 }

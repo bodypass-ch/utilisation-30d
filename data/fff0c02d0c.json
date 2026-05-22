@@ -11,7 +11,8 @@
     "category": "Spa 5 étoiles",
     "canton": "Vaud",
     "visites": 2890,
-    "note": "5/5"
+    "note": "5/5",
+    "blurb": "L'écrin Belle Époque face au Léman. Le spa Wellbeing Sanctuary, les rituels signature et la piscine intérieure — pour prolonger le moment."
   },
   "top_category": "Massage",
   "top_canton": "Genève",
@@ -25,7 +26,8 @@
       "canton": "Genève",
       "reason": "Parce que vous aimez Massage",
       "visites": 144,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'expertise du toucher à Genève. Massages signature, soins corps profond, lâcher-prise garanti — la pause qu'on méritait."
     },
     {
       "etab_name": "CLINIQUE LA JOUVENCE GENÈVE",
@@ -36,7 +38,8 @@
       "canton": "Genève",
       "reason": "À découvrir dans le canton de Genève",
       "visites": 7,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "La clinique esthétique genevoise. Technologies avancées, expertise médicale, résultats visibles — la beauté assistée par la science."
     },
     {
       "etab_name": "HÔTEL BORSARI",
@@ -45,7 +48,8 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
       "category": "Hôtels",
       "canton": "Valais",
-      "reason": "Nouveau partenaire du réseau"
+      "reason": "Nouveau partenaire du réseau",
+      "blurb": "L'hôtel intime au cœur du Valais. Confort feutré, accueil personnalisé, escapade hors du temps — pour souffler vraiment."
     }
   ]
 }

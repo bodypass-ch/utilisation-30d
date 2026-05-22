@@ -11,7 +11,8 @@
     "category": "Soins du Corps",
     "canton": "Genève",
     "visites": 147,
-    "note": "4.5/5"
+    "note": "4.5/5",
+    "blurb": "Le laboratoire beauté genevois aux accents asiatiques. Soins K-beauty, rituels japonais, expertise pointue — la peau réinventée."
   },
   "top_category": "Epilation",
   "top_canton": "Genève",
@@ -25,7 +26,8 @@
       "canton": "Genève",
       "reason": "Parce que vous aimez Epilation",
       "visites": 144,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'expertise du toucher à Genève. Massages signature, soins corps profond, lâcher-prise garanti — la pause qu'on méritait."
     },
     {
       "etab_name": "Blossom Institut",
@@ -36,7 +38,8 @@
       "canton": "Genève",
       "reason": "À découvrir dans le canton de Genève",
       "visites": 516,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'adresse genevoise discrète des hommes exigeants. Soins du visage, épilation, manucure — la beauté masculine sans détour."
     },
     {
       "etab_name": "HÔTEL BORSARI",
@@ -45,7 +48,8 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
       "category": "Hôtels",
       "canton": "Valais",
-      "reason": "Nouveau partenaire du réseau"
+      "reason": "Nouveau partenaire du réseau",
+      "blurb": "L'hôtel intime au cœur du Valais. Confort feutré, accueil personnalisé, escapade hors du temps — pour souffler vraiment."
     }
   ]
 }

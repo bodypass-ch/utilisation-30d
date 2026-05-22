@@ -11,7 +11,8 @@
     "category": "Spa",
     "canton": "Valais",
     "visites": 70,
-    "note": "4.5/5"
+    "note": "4.5/5",
+    "blurb": "Le spa public revisité en lieu de bien-être. Bassins, hammam, sauna — la culture du bain dans sa version contemporaine."
   },
   "top_category": "Massage",
   "top_canton": "Vaud",
@@ -25,7 +26,8 @@
       "canton": "Vaud",
       "reason": "Parce que vous aimez Massage",
       "visites": 297,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "L'institut bio au cœur de Vaud. Soins naturels, ingrédients végétaux, approche holistique — la beauté en mode conscience."
     },
     {
       "etab_name": "1er Acte Coiffure",
@@ -36,7 +38,8 @@
       "canton": "Vaud",
       "reason": "À découvrir dans le canton de Vaud",
       "visites": 706,
-      "note": "5/5"
+      "note": "5/5",
+      "blurb": "Le salon barbier vaudois qui prend son temps. Coupe sur-mesure, rasage traditionnel, rituel chaud-froid — un moment rien que pour soi."
     },
     {
       "etab_name": "HÔTEL BORSARI",
@@ -45,7 +48,8 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
       "category": "Hôtels",
       "canton": "Valais",
-      "reason": "Nouveau partenaire du réseau"
+      "reason": "Nouveau partenaire du réseau",
+      "blurb": "L'hôtel intime au cœur du Valais. Confort feutré, accueil personnalisé, escapade hors du temps — pour souffler vraiment."
     }
   ]
 }
