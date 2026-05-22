@@ -29,16 +29,15 @@
       "blurb": "Le sanctuaire urbain au cœur de Genève. Cinq Mondes, rituels d'ailleurs, piscine 30e étage — une parenthèse hors du monde."
     },
     {
-      "etab_name": "BEAUTY B",
-      "etab_slug": "bv-institut",
-      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bv-institut.jpg",
-      "etab_url_public": "https://www.bodypass.ch/etablissements/bv-institut/",
-      "category": "Soins Hommes",
+      "etab_name": "INTUITIVE JESS",
+      "etab_slug": "intuitive-jess",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/intuitive-jess.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/intuitive-jess/",
+      "category": "Soins Duo",
       "canton": "Genève",
       "reason": "À découvrir dans le canton de Genève",
-      "visites": 144,
-      "note": "5/5",
-      "blurb": "L'expertise du toucher à Genève. Massages signature, soins corps profond, lâcher-prise garanti — la pause qu'on méritait."
+      "visites": 13,
+      "note": "4.5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

@@ -30,16 +30,15 @@
       "blurb": "L'institut bio au cœur de Vaud. Soins naturels, ingrédients végétaux, approche holistique — la beauté en mode conscience."
     },
     {
-      "etab_name": "1er Acte Coiffure",
-      "etab_slug": "1er-acte-coiffure",
-      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/1er-acte-coiffure.jpg",
-      "etab_url_public": "https://www.bodypass.ch/etablissements/1er-acte-coiffure/",
-      "category": "Soins Hommes",
+      "etab_name": "Espace Beauté Harmonie",
+      "etab_slug": "espace-beaute-harmonie",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/espace-beaute-harmonie.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/espace-beaute-harmonie/",
+      "category": "Epilation",
       "canton": "Vaud",
       "reason": "À découvrir dans le canton de Vaud",
-      "visites": 706,
-      "note": "5/5",
-      "blurb": "Le salon barbier vaudois qui prend son temps. Coupe sur-mesure, rasage traditionnel, rituel chaud-froid — un moment rien que pour soi."
+      "visites": 83,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

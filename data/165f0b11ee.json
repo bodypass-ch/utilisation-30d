@@ -30,14 +30,15 @@
       "blurb": "L'institut bernois pensé pour les hommes. Soins ciblés, ambiance épurée, prise en charge complète — bien-être au masculin."
     },
     {
-      "etab_name": "Maison de la Santé Rossfeld",
-      "etab_slug": "maison-de-la-sante-rossfeld",
-      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/maison-de-la-sante-rossfeld.jpg",
-      "etab_url_public": "https://www.bodypass.ch/etablissements/maison-de-la-sante-rossfeld/",
-      "category": "Massage",
+      "etab_name": "Hôtel de Rougemont & Spa",
+      "etab_slug": "hotel-de-rougemont-spa",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/hotel-de-rougemont-spa.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/hotel-de-rougemont-spa/",
+      "category": "Soins Hommes",
       "canton": "Berne",
       "reason": "À découvrir dans le canton de Berne",
-      "blurb": "La maison bernoise dédiée au bien-être. Massages experts, soins thérapeutiques, approche corps-esprit — la santé en gestes."
+      "visites": 245,
+      "note": "4.5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

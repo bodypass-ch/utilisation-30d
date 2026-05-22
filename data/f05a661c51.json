@@ -30,16 +30,15 @@
       "blurb": "Le salon barbier vaudois qui prend son temps. Coupe sur-mesure, rasage traditionnel, rituel chaud-froid — un moment rien que pour soi."
     },
     {
-      "etab_name": "Chalet Royalp Hôtel & Spa",
-      "etab_slug": "chalet-royalp-hotel-spa",
-      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/chalet-royalp-hotel-spa.jpg",
-      "etab_url_public": "https://www.bodypass.ch/etablissements/chalet-royalp-hotel-spa/",
-      "category": "Massage",
+      "etab_name": "CJ Coiffure",
+      "etab_slug": "cj-coiffure",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/cj-coiffure.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/cj-coiffure/",
+      "category": "Lausanne région",
       "canton": "Vaud",
       "reason": "À découvrir dans le canton de Vaud",
-      "visites": 909,
-      "note": "5/5",
-      "blurb": "Le refuge alpin de Villars-sur-Ollon. Spa montagnard, piscine extérieure chauffée vue cimes et soins signature après-ski toute l'année."
+      "visites": 569,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",
