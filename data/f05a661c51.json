@@ -1,0 +1,42 @@
+{
+  "carte": "36380",
+  "name": "Corélie",
+  "last_visit": {
+    "etab_name": "Swiss Aesthetica",
+    "etab_slug": "swiss-aesthetica",
+    "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/swiss-aesthetica.jpg",
+    "date_iso": "2026-04-22",
+    "date_pretty": "le 22 avril"
+  },
+  "top_category": "Lausanne région",
+  "top_canton": "Vaud",
+  "suggestions": [
+    {
+      "etab_name": "1er Acte Coiffure",
+      "etab_slug": "1er-acte-coiffure",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/1er-acte-coiffure.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/1er-acte-coiffure/",
+      "category": "Lausanne région",
+      "canton": "Vaud",
+      "reason": "Parce que vous aimez Lausanne région"
+    },
+    {
+      "etab_name": "Chalet Royalp Hôtel & Spa",
+      "etab_slug": "chalet-royalp-hotel-spa",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/chalet-royalp-hotel-spa.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/chalet-royalp-hotel-spa/",
+      "category": "Massage",
+      "canton": "Vaud",
+      "reason": "À découvrir dans le canton de Vaud"
+    },
+    {
+      "etab_name": "HÔTEL BORSARI",
+      "etab_slug": "bpnight-hotel-borsari",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bpnight-hotel-borsari.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
+      "category": "Hôtels",
+      "canton": "Valais",
+      "reason": "Nouveau partenaire du réseau"
+    }
+  ]
+}

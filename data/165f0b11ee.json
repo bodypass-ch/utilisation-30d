@@ -1,0 +1,42 @@
+{
+  "carte": "31749",
+  "name": "Marie-Lise",
+  "last_visit": {
+    "etab_name": "Lausanne Palace & Spa",
+    "etab_slug": "lausanne-palace-spa",
+    "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/lausanne-palace-spa.jpg",
+    "date_iso": "2026-04-22",
+    "date_pretty": "le 22 avril"
+  },
+  "top_category": "Soins Hommes",
+  "top_canton": "Berne",
+  "suggestions": [
+    {
+      "etab_name": "Centre Sattva",
+      "etab_slug": "centre-sattva",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/centre-sattva.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/centre-sattva/",
+      "category": "Soins Hommes",
+      "canton": "Berne",
+      "reason": "Parce que vous aimez Soins Hommes"
+    },
+    {
+      "etab_name": "Maison de la Santé Rossfeld",
+      "etab_slug": "maison-de-la-sante-rossfeld",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/maison-de-la-sante-rossfeld.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/maison-de-la-sante-rossfeld/",
+      "category": "Massage",
+      "canton": "Berne",
+      "reason": "À découvrir dans le canton de Berne"
+    },
+    {
+      "etab_name": "HÔTEL BORSARI",
+      "etab_slug": "bpnight-hotel-borsari",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bpnight-hotel-borsari.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
+      "category": "Hôtels",
+      "canton": "Valais",
+      "reason": "Nouveau partenaire du réseau"
+    }
+  ]
+}

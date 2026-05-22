@@ -1,0 +1,42 @@
+{
+  "carte": "35973",
+  "name": "Cecilia",
+  "last_visit": {
+    "etab_name": "Fjacco Coiffure",
+    "etab_slug": "fjacco-coiffure",
+    "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/fjacco-coiffure.jpg",
+    "date_iso": "2026-04-22",
+    "date_pretty": "le 22 avril"
+  },
+  "top_category": "Coiffeur",
+  "top_canton": "Fribourg",
+  "suggestions": [
+    {
+      "etab_name": "ALEX COIFFURE SARL",
+      "etab_slug": "a-lex-coiffure-3",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/a-lex-coiffure-3.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/a-lex-coiffure-3/",
+      "category": "Coiffeur",
+      "canton": "Fribourg",
+      "reason": "Parce que vous aimez Coiffeur"
+    },
+    {
+      "etab_name": "EssenCiel Institut",
+      "etab_slug": "essenciel-institut",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/essenciel-institut.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/essenciel-institut/",
+      "category": "Epilation",
+      "canton": "Fribourg",
+      "reason": "À découvrir dans le canton de Fribourg"
+    },
+    {
+      "etab_name": "HÔTEL BORSARI",
+      "etab_slug": "bpnight-hotel-borsari",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bpnight-hotel-borsari.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
+      "category": "Hôtels",
+      "canton": "Valais",
+      "reason": "Nouveau partenaire du réseau"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "carte": "35725",
+  "name": "Magali",
+  "last_visit": {
+    "etab_name": "Institut Biotiful",
+    "etab_slug": "institut-biotiful-2",
+    "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/institut-biotiful-2.jpg",
+    "date_iso": "2026-04-22",
+    "date_pretty": "le 22 avril"
+  },
+  "top_category": "Massage",
+  "top_canton": "Vaud",
+  "suggestions": [
+    {
+      "etab_name": "Bhumi",
+      "etab_slug": "biotonique-institut",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/biotonique-institut.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/biotonique-institut/",
+      "category": "Massage",
+      "canton": "Vaud",
+      "reason": "Parce que vous aimez Massage"
+    },
+    {
+      "etab_name": "1er Acte Coiffure",
+      "etab_slug": "1er-acte-coiffure",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/1er-acte-coiffure.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/1er-acte-coiffure/",
+      "category": "Soins Hommes",
+      "canton": "Vaud",
+      "reason": "À découvrir dans le canton de Vaud"
+    },
+    {
+      "etab_name": "HÔTEL BORSARI",
+      "etab_slug": "bpnight-hotel-borsari",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bpnight-hotel-borsari.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
+      "category": "Hôtels",
+      "canton": "Valais",
+      "reason": "Nouveau partenaire du réseau"
+    }
+  ]
+}

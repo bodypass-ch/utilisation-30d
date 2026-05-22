@@ -1,0 +1,42 @@
+{
+  "carte": "35709",
+  "name": "Tiziana",
+  "last_visit": {
+    "etab_name": "Nail Café",
+    "etab_slug": "nail-cafe",
+    "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/nail-cafe.jpg",
+    "date_iso": "2026-04-22",
+    "date_pretty": "le 22 avril"
+  },
+  "top_category": "Future Maman",
+  "top_canton": "Vaud",
+  "suggestions": [
+    {
+      "etab_name": "LA VILLA DERMO-ESTHÉTIQUE by Lorella",
+      "etab_slug": "la-villa-dermo-esthetique-by-lorella",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/la-villa-dermo-esthetique-by-lorella.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/la-villa-dermo-esthetique-by-lorella/",
+      "category": "Future Maman",
+      "canton": "Vaud",
+      "reason": "Parce que vous aimez Future Maman"
+    },
+    {
+      "etab_name": "1er Acte Coiffure",
+      "etab_slug": "1er-acte-coiffure",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/1er-acte-coiffure.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/1er-acte-coiffure/",
+      "category": "Soins Hommes",
+      "canton": "Vaud",
+      "reason": "À découvrir dans le canton de Vaud"
+    },
+    {
+      "etab_name": "HÔTEL BORSARI",
+      "etab_slug": "bpnight-hotel-borsari",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bpnight-hotel-borsari.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
+      "category": "Hôtels",
+      "canton": "Valais",
+      "reason": "Nouveau partenaire du réseau"
+    }
+  ]
+}

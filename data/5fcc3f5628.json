@@ -1,0 +1,42 @@
+{
+  "carte": "36051",
+  "name": "Sophie",
+  "last_visit": {
+    "etab_name": "LES BAINS PUBLICS",
+    "etab_slug": "les-bains-publics",
+    "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/les-bains-publics.jpg",
+    "date_iso": "2026-04-22",
+    "date_pretty": "le 22 avril"
+  },
+  "top_category": "Soins Hommes",
+  "top_canton": "Valais",
+  "suggestions": [
+    {
+      "etab_name": "Chandolin Boutique Hôtel",
+      "etab_slug": "chandolin-boutique-hotel",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/chandolin-boutique-hotel.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/chandolin-boutique-hotel/",
+      "category": "Soins Hommes",
+      "canton": "Valais",
+      "reason": "Parce que vous aimez Soins Hommes"
+    },
+    {
+      "etab_name": "Chanelle and Co.",
+      "etab_slug": "chanelle-and-co",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/chanelle-and-co.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/chanelle-and-co/",
+      "category": "Epilation",
+      "canton": "Valais",
+      "reason": "À découvrir dans le canton de Valais"
+    },
+    {
+      "etab_name": "HÔTEL BORSARI",
+      "etab_slug": "bpnight-hotel-borsari",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bpnight-hotel-borsari.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
+      "category": "Hôtels",
+      "canton": "Valais",
+      "reason": "Nouveau partenaire du réseau"
+    }
+  ]
+}

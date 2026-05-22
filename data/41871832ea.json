@@ -1,0 +1,42 @@
+{
+  "carte": "29391",
+  "name": "Sandra",
+  "last_visit": {
+    "etab_name": "Hôtel Intercontinental Spa 5 Mondes",
+    "etab_slug": "hotel-intercontinental-spa-5-mondes",
+    "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/hotel-intercontinental-spa-5-mondes.jpg",
+    "date_iso": "2026-04-22",
+    "date_pretty": "le 22 avril"
+  },
+  "top_category": "Soins du Visage",
+  "top_canton": "Genève",
+  "suggestions": [
+    {
+      "etab_name": "BEAUTY B",
+      "etab_slug": "bv-institut",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bv-institut.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/bv-institut/",
+      "category": "Soins du Visage",
+      "canton": "Genève",
+      "reason": "Parce que vous aimez Soins du Visage"
+    },
+    {
+      "etab_name": "Corps Sains",
+      "etab_slug": "corps-sains",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/corps-sains.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/corps-sains/",
+      "category": "Future Maman",
+      "canton": "Genève",
+      "reason": "À découvrir dans le canton de Genève"
+    },
+    {
+      "etab_name": "HÔTEL BORSARI",
+      "etab_slug": "bpnight-hotel-borsari",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bpnight-hotel-borsari.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
+      "category": "Hôtels",
+      "canton": "Valais",
+      "reason": "Nouveau partenaire du réseau"
+    }
+  ]
+}

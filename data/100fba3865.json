@@ -1,0 +1,42 @@
+{
+  "carte": "35943",
+  "name": "Ludovic",
+  "last_visit": {
+    "etab_name": "LES TRESOMS",
+    "etab_slug": "les-tresoms-2",
+    "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/les-tresoms-2.jpg",
+    "date_iso": "2026-04-22",
+    "date_pretty": "le 22 avril"
+  },
+  "top_category": "Soins Duo",
+  "top_canton": "Genève",
+  "suggestions": [
+    {
+      "etab_name": "Hôtel Intercontinental Spa 5 Mondes",
+      "etab_slug": "hotel-intercontinental-spa-5-mondes",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/hotel-intercontinental-spa-5-mondes.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/hotel-intercontinental-spa-5-mondes/",
+      "category": "Soins Duo",
+      "canton": "Genève",
+      "reason": "Parce que vous aimez Soins Duo"
+    },
+    {
+      "etab_name": "BEAUTY B",
+      "etab_slug": "bv-institut",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bv-institut.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/bv-institut/",
+      "category": "Soins Hommes",
+      "canton": "Genève",
+      "reason": "À découvrir dans le canton de Genève"
+    },
+    {
+      "etab_name": "HÔTEL BORSARI",
+      "etab_slug": "bpnight-hotel-borsari",
+      "etab_photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/bpnight-hotel-borsari.jpg",
+      "etab_url_public": "https://www.bodypass.ch/etablissements/bpnight-hotel-borsari/",
+      "category": "Hôtels",
+      "canton": "Valais",
+      "reason": "Nouveau partenaire du réseau"
+    }
+  ]
+}
