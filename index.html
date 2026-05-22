@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Body Pass — Vos prochaines découvertes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream-deep: #F2EBDF;
+    --cream-light: #FBF7F1;
+    --burgundy: #A3695B;
+    --burgundy-deep: #8B5448;
+    --champagne: #C2B59B;
+    --champagne-light: #D8CDB6;
+    --text-warm: #54504E;
+    --text-muted: #7A7470;
+    --title: #2C2826;
+    --border: #E5DBC8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Source Sans Pro', -apple-system, sans-serif;
+    background: var(--cream-light);
+    color: var(--text-warm);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    padding: 56px 24px;
+  }
+  h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--title);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  .container { max-width: 720px; margin: 0 auto; }
+
+  /* ------- INTRO ÉDITORIALE ------- */
+  .intro {
+    background: var(--cream-deep);
+    border: 1px solid var(--border);
+    padding: 48px 44px 44px;
+    margin-bottom: 28px;
+  }
+  .intro .eyebrow {
+    text-transform: uppercase; letter-spacing: 0.22em; font-size: 11px;
+    color: var(--burgundy); font-weight: 600; margin-bottom: 18px;
+  }
+  .intro h1 {
+    font-size: 34px; line-height: 1.15; margin-bottom: 18px;
+    font-style: italic; font-weight: 400;
+  }
+  .intro h1 .name { font-style: italic; color: var(--burgundy); }
+  .intro p {
+    font-size: 16px; line-height: 1.65; color: var(--text-warm);
+    margin-bottom: 12px;
+  }
+  .intro p:last-child { margin-bottom: 0; }
+
+  /* ------- RAPPEL DERNIÈRE VISITE ------- */
+  .recap {
+    display: flex; gap: 22px; align-items: center;
+    background: white; border: 1px solid var(--border);
+    padding: 22px; margin-bottom: 36px;
+  }
+  .recap-photo {
+    flex-shrink: 0; width: 110px; height: 110px;
+    object-fit: cover; background: var(--cream-deep);
+  }
+  .recap-body { flex: 1; min-width: 0; }
+  .recap-eyebrow {
+    text-transform: uppercase; letter-spacing: 0.22em; font-size: 10px;
+    color: var(--text-muted); font-weight: 600; margin-bottom: 6px;
+  }
+  .recap-name {
+    font-family: 'Playfair Display', serif; font-size: 20px;
+    color: var(--title); line-height: 1.25; font-weight: 500; margin-bottom: 4px;
+  }
+  .recap-date { font-size: 14px; color: var(--text-muted); }
+
+  /* ------- SECTION SUGGESTIONS ------- */
+  .section-head {
+    text-align: center; margin: 0 0 26px;
+  }
+  .section-head .eyebrow {
+    text-transform: uppercase; letter-spacing: 0.22em; font-size: 11px;
+    color: var(--burgundy); font-weight: 600; margin-bottom: 12px;
+  }
+  .section-head h2 {
+    font-size: 26px; font-style: italic; font-weight: 400; line-height: 1.2;
+  }
+
+  .cards { display: flex; flex-direction: column; gap: 22px; margin-bottom: 36px; }
+  .card {
+    background: white; border: 1px solid var(--border); overflow: hidden;
+    transition: border-color 0.2s ease;
+  }
+  .card:hover { border-color: var(--champagne); }
+  .card-photo {
+    width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block;
+    background: var(--cream-deep);
+  }
+  .card-body { padding: 26px 32px 28px; }
+  .card-reason {
+    text-transform: uppercase; letter-spacing: 0.18em; font-size: 11px;
+    color: var(--burgundy); font-weight: 600; margin-bottom: 10px;
+  }
+  .card-name {
+    font-family: 'Playfair Display', serif; font-size: 22px;
+    color: var(--title); line-height: 1.2; font-weight: 500; margin-bottom: 6px;
+  }
+  .card-meta {
+    font-size: 13px; color: var(--text-muted); letter-spacing: 0.04em;
+    margin-bottom: 18px;
+  }
+  .card-cta {
+    display: inline-block; padding: 12px 26px; background: transparent;
+    color: var(--burgundy); border: 1px solid var(--burgundy);
+    font-family: inherit; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase; text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  .card-cta:hover { background: var(--burgundy); color: white; }
+
+  /* ------- CTA PRINCIPAL ------- */
+  .actions { text-align: center; margin: 12px 0 40px; }
+  .actions .primary {
+    display: inline-block; padding: 18px 48px; background: var(--burgundy);
+    color: white; border: none; cursor: pointer; font-family: inherit;
+    font-size: 13px; font-weight: 600; letter-spacing: 0.18em;
+    text-transform: uppercase; text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+  }
+  .actions .primary:hover { background: var(--burgundy-deep); transform: translateY(-1px); }
+
+  /* ------- SIGNATURE ------- */
+  .signature {
+    text-align: center; padding: 32px 0 8px;
+    border-top: 1px solid var(--border); color: var(--text-muted); font-size: 13px;
+  }
+  .signature .sign-name {
+    font-family: 'Playfair Display', serif; font-style: italic;
+    color: var(--text-warm); font-size: 16px; margin-bottom: 4px; display: block;
+  }
+
+  /* ------- ÉTATS ------- */
+  .state-screen {
+    text-align: center; padding: 80px 40px;
+    background: var(--cream-deep); border: 1px solid var(--border);
+  }
+  .state-screen .eyebrow {
+    text-transform: uppercase; letter-spacing: 0.22em; font-size: 11px;
+    color: var(--burgundy); font-weight: 600; margin-bottom: 18px;
+  }
+  .state-screen h2 {
+    font-size: 30px; margin-bottom: 16px; font-style: italic; font-weight: 400;
+  }
+  .state-screen p { font-size: 16px; color: var(--text-warm); }
+  .state-screen a { color: var(--burgundy); }
+
+  @media (max-width: 600px) {
+    body { padding: 24px 16px; }
+    .intro { padding: 32px 24px 28px; }
+    .intro h1 { font-size: 26px; }
+    .recap { flex-direction: column; align-items: flex-start; gap: 16px; padding: 18px; }
+    .recap-photo { width: 100%; height: 180px; }
+    .section-head h2 { font-size: 22px; }
+    .card-body { padding: 20px 22px 24px; }
+    .card-name { font-size: 19px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container" id="app">
+  <div class="state-screen" id="loading">
+    <div class="eyebrow">Body Pass</div>
+    <h2>Un instant…</h2>
+  </div>
+</div>
+
+<template id="tpl-card">
+  <article class="card">
+    <img class="card-photo" alt="" loading="lazy">
+    <div class="card-body">
+      <div class="card-reason"></div>
+      <div class="card-name"></div>
+      <div class="card-meta"></div>
+      <a class="card-cta" href="#" target="_blank" rel="noopener">Voir cet établissement</a>
+    </div>
+  </article>
+</template>
+
+<script>
+  const app = document.getElementById("app");
+  const params = new URLSearchParams(location.search);
+  const token = params.get("t");
+
+  function showState(eyebrow, title, html) {
+    app.innerHTML = `<div class="state-screen"><div class="eyebrow">${eyebrow}</div><h2>${title}</h2>${html}</div>`;
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function metaLine(s) {
+    return [s.category, s.canton].filter(Boolean).join(" · ");
+  }
+
+  function render(data) {
+    const suggestions = data.suggestions || [];
+    const last = data.last_visit || null;
+
+    // Intro
+    const intro = document.createElement("section");
+    intro.className = "intro";
+    intro.innerHTML = `
+      <div class="eyebrow">Body Pass · à votre attention</div>
+      <h1>Bonjour <span class="name">${data.name}</span>,<br>cela fait un mois qu'on ne vous a pas vue.</h1>
+      <p>Votre dernière visite remonte à un peu plus d'un mois.
+         Voici trois adresses choisies pour vous, à découvrir avec votre Body Pass.</p>`;
+    app.innerHTML = "";
+    app.appendChild(intro);
+
+    // Rappel dernière visite (si dispo)
+    if (last && last.etab_name) {
+      const recap = document.createElement("section");
+      recap.className = "recap";
+      recap.innerHTML = `
+        <img class="recap-photo" src="${last.photo_url}" alt="${last.etab_name}"
+             onerror="this.src='https://bodypass-ch.github.io/bodypass-assets/etablissements/_default.jpg';">
+        <div class="recap-body">
+          <div class="recap-eyebrow">Votre dernière visite</div>
+          <div class="recap-name">${last.etab_name}</div>
+          <div class="recap-date">${last.date_pretty}</div>
+        </div>`;
+      app.appendChild(recap);
+    }
+
+    // En-tête section suggestions
+    const head = document.createElement("section");
+    head.className = "section-head";
+    head.innerHTML = `
+      <div class="eyebrow">Pour vous</div>
+      <h2>Trois adresses choisies à votre goût</h2>`;
+    app.appendChild(head);
+
+    // Cartes
+    const list = document.createElement("section");
+    list.className = "cards";
+    const tpl = document.getElementById("tpl-card");
+    suggestions.forEach(s => {
+      const node = tpl.content.cloneNode(true);
+      const img = node.querySelector(".card-photo");
+      img.src = s.etab_photo_url;
+      img.alt = s.etab_name || "";
+      img.onerror = () => { img.src = "https://bodypass-ch.github.io/bodypass-assets/etablissements/_default.jpg"; };
+      node.querySelector(".card-reason").textContent = s.reason || "";
+      node.querySelector(".card-name").textContent = s.etab_name || "";
+      node.querySelector(".card-meta").textContent = metaLine(s) || " ";
+      const cta = node.querySelector(".card-cta");
+      if (s.etab_url_public) {
+        cta.href = s.etab_url_public;
+      } else {
+        cta.style.display = "none";
+      }
+      list.appendChild(node);
+    });
+    app.appendChild(list);
+
+    // CTA principal vers le réseau complet
+    const actions = document.createElement("div");
+    actions.className = "actions";
+    actions.innerHTML = `<a class="primary" href="https://www.bodypass.ch/etablissements/" target="_blank" rel="noopener">Voir tous les partenaires</a>`;
+    app.appendChild(actions);
+
+    // Signature
+    const sig = document.createElement("footer");
+    sig.className = "signature";
+    sig.innerHTML = `<span class="sign-name">À très vite, ${data.name}.</span><span>L'équipe Body Pass</span>`;
+    app.appendChild(sig);
+  }
+
+  if (!token) {
+    showState("Body Pass", "Cette page a expiré",
+      `<p>Le lien n'est plus valide. Retrouvez vos avantages sur <a href="https://www.bodypass.ch">bodypass.ch</a>.</p>`);
+  } else {
+    fetch(`data/${token}.json`, { cache: "no-store" })
+      .then(r => { if (!r.ok) throw new Error("404"); return r.json(); })
+      .then(render)
+      .catch(() => showState("Body Pass", "Cette page a expiré",
+        `<p>Ce lien n'est plus actif. Retrouvez vos avantages sur <a href="https://www.bodypass.ch">bodypass.ch</a>.</p>`));
+  }
+</script>
+</body>
+</html>
