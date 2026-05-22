@@ -6,7 +6,13 @@
     "etab_slug": "anzere-spa-wellness",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/anzere-spa-wellness.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "blurb": "Pause altitude entre sapins et neige. Sauna panoramique, bassins extérieurs, vue plein cadre sur les Alpes valaisannes.",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/anzere-spa-wellness/",
+    "category": "Spa",
+    "canton": "Valais",
+    "visites": 286,
+    "note": "4/5"
   },
   "top_category": "Massage",
   "top_canton": "Vaud",
@@ -18,7 +24,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/biotonique-institut/",
       "category": "Massage",
       "canton": "Vaud",
-      "reason": "Parce que vous aimez Massage"
+      "reason": "Parce que vous aimez Massage",
+      "visites": 297,
+      "note": "5/5"
     },
     {
       "etab_name": "1er Acte Coiffure",
@@ -27,7 +35,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/1er-acte-coiffure/",
       "category": "Soins Hommes",
       "canton": "Vaud",
-      "reason": "À découvrir dans le canton de Vaud"
+      "reason": "À découvrir dans le canton de Vaud",
+      "visites": 706,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

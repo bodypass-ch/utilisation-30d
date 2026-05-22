@@ -6,7 +6,12 @@
     "etab_slug": "fjacco-coiffure",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/fjacco-coiffure.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/fjacco-coiffure/",
+    "category": "Coiffeur",
+    "canton": "Fribourg",
+    "visites": 31,
+    "note": "5/5"
   },
   "top_category": "Coiffeur",
   "top_canton": "Fribourg",
@@ -18,7 +23,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/a-lex-coiffure-3/",
       "category": "Coiffeur",
       "canton": "Fribourg",
-      "reason": "Parce que vous aimez Coiffeur"
+      "reason": "Parce que vous aimez Coiffeur",
+      "visites": 73,
+      "note": "5/5"
     },
     {
       "etab_name": "EssenCiel Institut",
@@ -27,7 +34,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/essenciel-institut/",
       "category": "Epilation",
       "canton": "Fribourg",
-      "reason": "À découvrir dans le canton de Fribourg"
+      "reason": "À découvrir dans le canton de Fribourg",
+      "visites": 60,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

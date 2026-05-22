@@ -6,7 +6,11 @@
     "etab_slug": "versonnex",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/versonnex.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/versonnex/",
+    "category": "Soins Hommes",
+    "canton": "Genève",
+    "visites": 26
   },
   "top_category": "Soins Hommes",
   "top_canton": "Genève",
@@ -18,7 +22,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bv-institut/",
       "category": "Soins Hommes",
       "canton": "Genève",
-      "reason": "Parce que vous aimez Soins Hommes"
+      "reason": "Parce que vous aimez Soins Hommes",
+      "visites": 144,
+      "note": "5/5"
     },
     {
       "etab_name": "Corps Sains",
@@ -27,7 +33,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/corps-sains/",
       "category": "Future Maman",
       "canton": "Genève",
-      "reason": "À découvrir dans le canton de Genève"
+      "reason": "À découvrir dans le canton de Genève",
+      "visites": 140,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

@@ -6,7 +6,12 @@
     "etab_slug": "rubis-spa",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/rubis-spa.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/rubis-spa/",
+    "category": "Spa",
+    "canton": "Vaud",
+    "visites": 83,
+    "note": "5/5"
   },
   "top_category": "Soins Duo",
   "top_canton": "Vaud",
@@ -18,7 +23,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/chalet-royalp-hotel-spa/",
       "category": "Soins Duo",
       "canton": "Vaud",
-      "reason": "Parce que vous aimez Soins Duo"
+      "reason": "Parce que vous aimez Soins Duo",
+      "visites": 909,
+      "note": "5/5"
     },
     {
       "etab_name": "1er Acte Coiffure",
@@ -27,7 +34,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/1er-acte-coiffure/",
       "category": "Soins Hommes",
       "canton": "Vaud",
-      "reason": "À découvrir dans le canton de Vaud"
+      "reason": "À découvrir dans le canton de Vaud",
+      "visites": 706,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

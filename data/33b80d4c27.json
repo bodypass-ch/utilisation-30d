@@ -6,7 +6,11 @@
     "etab_slug": "institut-biotiful-2",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/institut-biotiful-2.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/institut-biotiful-2/",
+    "category": "Massage",
+    "visites": 123,
+    "note": "4.5/5"
   },
   "top_category": "Soins Bio",
   "top_canton": "Vaud",
@@ -18,7 +22,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/biotonique-institut/",
       "category": "Soins Bio",
       "canton": "Vaud",
-      "reason": "Parce que vous aimez Soins Bio"
+      "reason": "Parce que vous aimez Soins Bio",
+      "visites": 297,
+      "note": "5/5"
     },
     {
       "etab_name": "1er Acte Coiffure",
@@ -27,7 +33,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/1er-acte-coiffure/",
       "category": "Soins Hommes",
       "canton": "Vaud",
-      "reason": "À découvrir dans le canton de Vaud"
+      "reason": "À découvrir dans le canton de Vaud",
+      "visites": 706,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

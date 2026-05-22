@@ -6,7 +6,12 @@
     "etab_slug": "lausanne-palace-spa",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/lausanne-palace-spa.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/lausanne-palace-spa/",
+    "category": "Spa 5 étoiles",
+    "canton": "Vaud",
+    "visites": 708,
+    "note": "4.5/5"
   },
   "top_category": "Soins Hommes",
   "top_canton": "Berne",
@@ -18,7 +23,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/centre-sattva/",
       "category": "Soins Hommes",
       "canton": "Berne",
-      "reason": "Parce que vous aimez Soins Hommes"
+      "reason": "Parce que vous aimez Soins Hommes",
+      "visites": 5,
+      "note": "5/5"
     },
     {
       "etab_name": "Maison de la Santé Rossfeld",

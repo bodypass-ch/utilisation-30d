@@ -6,7 +6,12 @@
     "etab_slug": "nail-cafe",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/nail-cafe.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/nail-cafe/",
+    "category": "Soins du Visage",
+    "canton": "Vaud",
+    "visites": 546,
+    "note": "4.5/5"
   },
   "top_category": "Future Maman",
   "top_canton": "Vaud",
@@ -18,7 +23,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/la-villa-dermo-esthetique-by-lorella/",
       "category": "Future Maman",
       "canton": "Vaud",
-      "reason": "Parce que vous aimez Future Maman"
+      "reason": "Parce que vous aimez Future Maman",
+      "visites": 78,
+      "note": "5/5"
     },
     {
       "etab_name": "1er Acte Coiffure",
@@ -27,7 +34,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/1er-acte-coiffure/",
       "category": "Soins Hommes",
       "canton": "Vaud",
-      "reason": "À découvrir dans le canton de Vaud"
+      "reason": "À découvrir dans le canton de Vaud",
+      "visites": 706,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

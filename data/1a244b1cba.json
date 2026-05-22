@@ -6,7 +6,11 @@
     "etab_slug": "les-tresoms-2",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/les-tresoms-2.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/les-tresoms-2/",
+    "category": "Spa 5 étoiles",
+    "visites": 88,
+    "note": "5/5"
   },
   "top_category": "Soins du Corps",
   "top_canton": "Genève",
@@ -18,7 +22,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bv-institut/",
       "category": "Soins du Corps",
       "canton": "Genève",
-      "reason": "Parce que vous aimez Soins du Corps"
+      "reason": "Parce que vous aimez Soins du Corps",
+      "visites": 144,
+      "note": "5/5"
     },
     {
       "etab_name": "EUPHORIA & BEAUTY STUDIO",
@@ -27,7 +33,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/euphoria-beauty-studio/",
       "category": "Coiffure",
       "canton": "Genève",
-      "reason": "À découvrir dans le canton de Genève"
+      "reason": "À découvrir dans le canton de Genève",
+      "visites": 144,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

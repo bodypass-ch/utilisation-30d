@@ -6,7 +6,12 @@
     "etab_slug": "salon-prive-chailly",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/salon-prive-chailly.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/salon-prive-chailly/",
+    "category": "Soins Hommes",
+    "canton": "Vaud",
+    "visites": 299,
+    "note": "4.5/5"
   },
   "top_category": "Soins Hommes",
   "top_canton": "Vaud",
@@ -18,7 +23,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/1er-acte-coiffure/",
       "category": "Soins Hommes",
       "canton": "Vaud",
-      "reason": "Parce que vous aimez Soins Hommes"
+      "reason": "Parce que vous aimez Soins Hommes",
+      "visites": 706,
+      "note": "5/5"
     },
     {
       "etab_name": "Bhumi",
@@ -27,7 +34,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/biotonique-institut/",
       "category": "Soins Bio",
       "canton": "Vaud",
-      "reason": "À découvrir dans le canton de Vaud"
+      "reason": "À découvrir dans le canton de Vaud",
+      "visites": 297,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

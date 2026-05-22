@@ -6,7 +6,12 @@
     "etab_slug": "sakura-lab",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/sakura-lab.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/sakura-lab/",
+    "category": "Soins du Corps",
+    "canton": "Genève",
+    "visites": 147,
+    "note": "4.5/5"
   },
   "top_category": "Epilation",
   "top_canton": "Genève",
@@ -18,7 +23,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/bv-institut/",
       "category": "Epilation",
       "canton": "Genève",
-      "reason": "Parce que vous aimez Epilation"
+      "reason": "Parce que vous aimez Epilation",
+      "visites": 144,
+      "note": "5/5"
     },
     {
       "etab_name": "Blossom Institut",
@@ -27,7 +34,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/blossom-institut/",
       "category": "Soins Hommes",
       "canton": "Genève",
-      "reason": "À découvrir dans le canton de Genève"
+      "reason": "À découvrir dans le canton de Genève",
+      "visites": 516,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",

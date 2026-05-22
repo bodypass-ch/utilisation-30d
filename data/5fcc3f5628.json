@@ -6,7 +6,12 @@
     "etab_slug": "les-bains-publics",
     "photo_url": "https://bodypass-ch.github.io/bodypass-assets/etablissements/les-bains-publics.jpg",
     "date_iso": "2026-04-22",
-    "date_pretty": "le 22 avril"
+    "date_pretty": "le 22 avril",
+    "etab_url_public": "https://www.bodypass.ch/etablissements/les-bains-publics/",
+    "category": "Spa",
+    "canton": "Valais",
+    "visites": 70,
+    "note": "4.5/5"
   },
   "top_category": "Soins Hommes",
   "top_canton": "Valais",
@@ -18,7 +23,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/chandolin-boutique-hotel/",
       "category": "Soins Hommes",
       "canton": "Valais",
-      "reason": "Parce que vous aimez Soins Hommes"
+      "reason": "Parce que vous aimez Soins Hommes",
+      "visites": 171,
+      "note": "5/5"
     },
     {
       "etab_name": "Chanelle and Co.",
@@ -27,7 +34,9 @@
       "etab_url_public": "https://www.bodypass.ch/etablissements/chanelle-and-co/",
       "category": "Epilation",
       "canton": "Valais",
-      "reason": "À découvrir dans le canton de Valais"
+      "reason": "À découvrir dans le canton de Valais",
+      "visites": 15,
+      "note": "5/5"
     },
     {
       "etab_name": "HÔTEL BORSARI",
