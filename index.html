@@ -387,13 +387,14 @@
         const featured = document.createElement("article");
         featured.className = "featured";
         const photoUrl = last.photo_url || last.etab_photo_url;
+        const lastUrl = last.etab_url_public || (last.etab_slug ? `https://www.bodypass.ch/etablissements/${last.etab_slug}/` : null);
         featured.innerHTML = `
           <div class="media" style="${mediaStyle(photoUrl)}"></div>
           <div class="body">
             <div class="category">${metaLine(last) || " "}</div>
             <h2>${last.etab_name}</h2>
             ${last.blurb ? `<p class="blurb">${last.blurb}</p>` : ""}
-            ${last.etab_url_public ? `<a href="${last.etab_url_public}" class="cta" target="_blank" rel="noopener">Y retourner</a>` : ""}
+            ${lastUrl ? `<a href="${lastUrl}" class="cta" target="_blank" rel="noopener">Y retourner</a>` : ""}
           </div>`;
         app.appendChild(featured);
       }
