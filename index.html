@@ -154,21 +154,23 @@
       line-height: 1.6;
       margin: 0 0 28px 0;
     }
-    .featured .cta {
-      display: inline-block;
-      align-self: flex-start;
-      padding: 14px 28px;
-      background: var(--bp-burgundy);
-      color: #FFFFFF;
+    .featured h2 a {
+      color: inherit;
       text-decoration: none;
-      font-size: 12px;
-      font-weight: 600;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      border-radius: 2px;
-      transition: background 150ms ease;
+      transition: color 150ms ease;
     }
-    .featured .cta:hover { background: var(--bp-burgundy-dark); }
+    .featured h2 a:hover { color: var(--bp-burgundy); }
+    .featured .media-link {
+      display: block;
+      text-decoration: none;
+    }
+    .featured .visit-date {
+      font-size: 13px;
+      color: var(--bp-text-mute);
+      font-style: italic;
+      letter-spacing: 0.02em;
+      margin-top: 4px;
+    }
 
     /* CARDS — 3 similaires */
     .cards {
@@ -415,14 +417,21 @@
         const photoUrl = last.photo_url || last.etab_photo_url;
         const lastUrl = last.etab_url_public || (last.etab_slug ? `https://www.bodypass.ch/etablissements/${last.etab_slug}/` : null);
         const lastStats = statsLine(last);
+        const visitText = last.date_pretty ? `Visité ${last.date_pretty}` : "";
+        const titleHtml = lastUrl
+          ? `<h2><a href="${lastUrl}" target="_blank" rel="noopener">${last.etab_name}</a></h2>`
+          : `<h2>${last.etab_name}</h2>`;
+        const mediaHtml = lastUrl
+          ? `<a href="${lastUrl}" target="_blank" rel="noopener" class="media-link"><div class="media" style="${mediaStyle(photoUrl)}"></div></a>`
+          : `<div class="media" style="${mediaStyle(photoUrl)}"></div>`;
         featured.innerHTML = `
-          <div class="media" style="${mediaStyle(photoUrl)}"></div>
+          ${mediaHtml}
           <div class="body">
             <div class="category">${metaLine(last) || " "}</div>
-            <h2>${last.etab_name}</h2>
+            ${titleHtml}
             ${lastStats ? `<div class="meta">${lastStats}</div>` : ""}
             ${last.blurb ? `<p class="blurb">${last.blurb}</p>` : ""}
-            ${lastUrl ? `<a href="${lastUrl}" class="cta" target="_blank" rel="noopener">Y retourner</a>` : ""}
+            ${visitText ? `<div class="visit-date">${visitText}</div>` : ""}
           </div>`;
         app.appendChild(featured);
       }
