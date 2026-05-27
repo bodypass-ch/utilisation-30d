@@ -363,7 +363,7 @@
     }
 
     function metaLine(s) {
-      return [s.category, s.canton].filter(Boolean).join(" · ");
+      return s.canton || "";
     }
 
     function statsLine(s) {
